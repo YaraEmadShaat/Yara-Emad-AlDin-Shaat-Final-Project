@@ -1,0 +1,256 @@
+/* My Name : Yara Emad Al-Din Suleiman Shaat */
+/* University number : 2301211502 */
+.header {
+    background-color: #2d92ca;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.up {
+    display: flex;
+    align-items: center;
+}
+
+.up img {
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.up h2 {
+    margin: 0;
+    padding: 3px;
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.account {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.account input[type="text"],
+.account input[type="password"] {
+    width: 30%;
+    padding: 8px;
+    margin: 2px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.account input[type="submit"] {
+    background-color: #2d92ca;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.account input[type="submit"]:hover {
+    background-color: #256b9a;
+}
+
+.account button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.account button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.account button a:hover {
+    text-decoration: underline;
+}
+
+.pages {
+    background-color: #3eaed6;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px 0;
+}
+
+.pages a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.pages a:hover {
+    background-color: #2d92ca;
+}
+
+
+.description {
+    text-align: center;
+    padding: 100px;
+    background-image: url(../images/صورة.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #333;
+}
+
+.description p {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: auto;
+}
+
+#adv,
+#card {
+    font-size: 36px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#card {
+    font-size: large;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 20px;
+
+}
+
+.advantages a {
+    text-decoration: none;
+    flex: 1;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 40px;
+    padding: 15px;
+
+}
+
+
+
+.advantagesright:hover,
+.advantagescenter:hover,
+.advantagesleft:hover {
+    transform: scale(1.05);
+}
+
+.advantages img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.advantages p {
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    font-weight: bold;
+}
+
+
+
+.footer {
+    background-color: #00bcd4;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: fit-content;
+}
+
+.footer :right,
+center,
+:left {
+
+    text-align: right;
+}
+
+.pay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.pay img {
+    padding: 7px;
+    border-radius: 20%;
+}
+
+.left img {
+    padding: 7px;
+    border-radius: 30%;
+}
+
+.footer div {
+    margin: 10px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.prodcut ul {
+    padding: 30px;
+}
+
+.prodcut li {
+    list-style: none;
+    margin-top: 14px;
+    font-size: medium;
+    font: bold;
+}
+
+#pr,
+#Copyright,
+#col {
+    font: bold;
+    font-size: x-large;
+}
+
+.descript {
+    font: bold;
+    font-size: large;
+}

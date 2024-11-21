@@ -1,0 +1,72 @@
+
+/* My Name : Yara Emad Al-Din Suleiman Shaat */
+/* University number : 2301211502 */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background-color: #c8eb70;
+
+}
+.card-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background-color: #161716;
+}
+
+.card {
+    position: relative;
+    width: 30%;
+    max-width: 250px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.card img.googleplay {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.card img.flag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+.card p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+
+.card button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
